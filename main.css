@@ -1,0 +1,92 @@
+/* -------------------------------------------GENERAL------------------------------------------ */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ===========================================MAIN_HEADER_PART====================================== */
+header{
+    background-color: lavender;
+    /* border: 2px solid black; */
+}
+/* -----------------------------------------sub-header-------------------------------------------------- */
+.header_container {
+    /* border: 2px solid black; */
+    margin: 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    /* border-radius: 25px; */
+  }
+/* ------------------------------------------buttons-header------------------------------------------- */
+  .header_btn{
+    /* border: 2px solid black; */
+    background-color: plum;
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 25px;
+    position: static;
+  }
+
+  .header_btn button:hover {
+    cursor: pointer;
+    border: 2px solid wheat;
+
+  }
+
+  /* .header_task{
+    /* border: 2px solid black; */
+    /* background-color: orangered; */
+    /* padding: 10px, 200px; */
+  /* } */
+/* ------------------------------------------------task-bar----------------------------------------------/ */
+  .task{
+    background-color: orange;
+    padding: 16px 30px;
+    border-radius: 25px;
+    /* font-size: 18px; */
+    color: white;
+    font-weight: bolder;
+    border: none;
+
+  }
+  .task:hover {
+    cursor: pointer;
+    /* border:solid black; */
+  }
+/* -------------------------------------------------individual-buttons------------------------------ */
+  .red, .yellow,.blue, .black{
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+  }
+  .all, .tick{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: plum;
+
+    border: none;
+    /* color: black; */
+    /* font-weight: 30px; */
+  }
+  .red{
+    background-color: red;
+  }
+  .yellow{
+    background-color: yellow;
+  }
+  .blue{
+    background-color: blue;
+  }
+  .black{
+    background-color: black;
+  }
+  .tick{
+    /* color: rgba(230, 156, 20, 0.827); */
+    font-weight: bolder;
+  }
