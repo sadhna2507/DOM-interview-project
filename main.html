@@ -30,49 +30,41 @@
     </header>
     <!-- <------------------------------------------------MAIN PART--------------------------------------------------->
     <main>
-        <section class="main">
-            <!-- added to check -->
-            <div class="main-content">
-                <!-- <div class="task">
-                    <div class="task-head">
-                    </div>                  
-                    <h1>Puran</h1>
-                    <div class="icons">
-                        <button>Lock</button>
-                      <div class="icon-set">
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                      </div>
-                    </div>
-                </div> -->
-            </div>
-      </section>
-
-      
       <div class="modal_container">
-        <div class="content">
-          <div class="text_area">
-            <textarea
-              name="task"
-              id="todo"
-              cols="40"
-              rows="15"
-              placeholder="Please enter task!!"
-            ></textarea>
-            <div>
-              <button type="button" class="done_btn">Done</button>
+        <div class="overlap">
+          <div class="content">
+            <div class="text_area">
+              <textarea
+                name="task"
+                id="todo"
+                cols="40"
+                rows="15"
+                placeholder="Please enter task!!"
+              ></textarea>
+              <div>
+                <button type="button" class="done_btn">Done</button>
+              </div>
+            </div>
+            <div class="button_area">
+              <button class="cancel_btn">
+                <i class="fas fa-times cancel-btn"></i>
+              </button>
+              <div class="clrbtn red_btn"></div>
+              <div class="clrbtn yellow_btn"></div>
+              <div class="clrbtn blue_btn"></div>
+              <div class="clrbtn black_btn"></div>
             </div>
           </div>
-          <div class="button_area">
-            <button class="cancel_btn">
-              <i class="fas fa-times cancel-btn"></i>
-            </button>
-            <div class="clrbtn red_btn"></div>
-            <div class="clrbtn yellow_btn"></div>
-            <div class="clrbtn blue_btn"></div>
-            <div class="clrbtn black_btn"></div>
-          </div>
+        </div>
+
+        <div class="end_task">
+          <div class="red_task"></div>
+          <div class="yellow_task"></div>
+          <div class="blue_task"></div>
+          <div class="black_task"></div>
+        </div>
+        <div class="overlay1">
+          <div class="complete_final"></div>
         </div>
       </div>
     </main>

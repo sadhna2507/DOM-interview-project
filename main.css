@@ -104,10 +104,14 @@ header{
   /* width: 600px; */
   /* height: 400px; */
   /* background-color: rgb(181, 181, 243);  */
-  /* visibility: hidden; */
+  visibility: hidden;
   z-index: -1;
   /* padding: 40px; */
 
+}
+.active {
+  visibility: visible;
+  z-index: 1;
 }
 
 .content{
