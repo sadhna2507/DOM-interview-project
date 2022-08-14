@@ -27,7 +27,44 @@
     </header>
     <!-- <------------------------------------------------MAIN PART---------------------------------------------------> 
     <main>
+        <!-- <div class="main_container">
+            <div class="task-modal flex">
+                <textarea class="text-area" spellcheck="false"></textarea>
+                <div class="priority-colors flex">
+                    <div class="priority-color-big high"></div>
+                    <div class="priority-color-big medium"></div>
+                    <div class="priority-color-big low"></div>
+                    <div class="priority-color-big no-priority active"></div>
+                    <i class="fas fa-times cancel-btn"></i>
+                </div>
+                <button class="done-btn">Done</button>
+            </div>
+        </div> -->
 
+        <div class="modal_container">
+            <!-- <button class="close-btn"><i class="fas fa-times cancel-btn"></i></button> -->
+            <div class="content">
+              <div class="text_area">
+                <textarea
+                  name="task"
+                  id="todo"
+                  cols="40"
+                  rows="15"
+                  placeholder="Please enter task!!"
+                ></textarea>
+                <div>
+                    <button type="button" class="done_btn">Done</button>
+                </div>
+              </div>
+              <div class="button_area">
+                <button class="cancel_btn"><i class="fas fa-times cancel-btn"></i></button>
+                <div class="box red-box">red</div>
+                <div class="box yellow-box">yellow</div>
+                <div class="box blue-box">blue</div>
+                <div class="box black-box">black</div>
+              </div>
+            </div>
+          </div>
     </main>
 </body>
 </html>
